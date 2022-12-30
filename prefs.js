@@ -29,6 +29,8 @@ const mouseActionNamesMap = {
     toggle_menu: "Open sources menu",
     toggle_info: "Open track information menu",
     raise: "Raise player",
+    increase_volume: "Increase volume",
+    decrease_volume: "Decrease Volume",
     quit: "Quit player",
 };
 let mouseActionNameIds = Object.keys(mouseActionNamesMap);

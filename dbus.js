@@ -17,6 +17,7 @@ var ifacesXml = `
             <property name="PlaybackStatus" type="s" access="read" />
             <property name="Metadata" type="a{sv}" access="read" />
             <property name="LoopStatus" type="s" access="readwrite" />
+            <property name="Volume" type="d" access="readwrite" />
             <property name="Shuffle" type="b" access="readwrite" />
             <property name="CanControl" type="b" access="read" />
             <method name="SetPosition">

@@ -841,6 +841,12 @@ var Player = GObject.registerClass(
                 case "quit":
                     this._otherProxy.QuitRemote();
                     break;
+                case "increase_volume":
+                  this._playerProxy.Volume += 0.05;
+                  break;
+                case "decrease_volume":
+                  this._playerProxy.Volume -= 0.05;
+                  break;
                 default:
                     break;
             }
